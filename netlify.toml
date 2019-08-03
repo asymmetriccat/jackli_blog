@@ -1,7 +1,7 @@
-[build]
-base = "jackli-blog/"
-publish = "jackli-blog/build/"
-command = "npm run build"
+#[build]
+#base = "jackli-blog/"
+#publish = "jackli-blog/build/"
+#command = "npm run build"
 [[redirects]]
 from = "/*"
 to = "/index.html"
