@@ -14,17 +14,17 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../jackli-blog/public/index.html">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../jackli-blog/public/favicon.ico">
+        <entry file="file://$PROJECT_DIR$/public/favicon.ico">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../jackli-blog/src/components/ArticleMeta.js">
+        <entry file="file://$PROJECT_DIR$/src/components/ArticleMeta.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1">
               <folding>
@@ -35,12 +35,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../jackli-blog/navi.config.js">
+        <entry file="file://$PROJECT_DIR$/navi.config.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../jackli-blog/.gitignore">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
@@ -49,7 +49,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../jackli-blog/src/routes/index.js">
+        <entry file="file://$PROJECT_DIR$/src/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-308">
               <folding>
@@ -60,7 +60,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../jackli-blog/netlify.toml">
+        <entry file="file://$PROJECT_DIR$/netlify.toml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
@@ -69,7 +69,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../jackli-blog/src/routes/tags.js">
+        <entry file="file://$PROJECT_DIR$/src/routes/tags.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1258">
               <folding>
@@ -80,7 +80,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../jackli-blog/src/index.js">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
@@ -91,7 +91,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../jackli-blog/public/manifest.json">
+        <entry file="file://$PROJECT_DIR$/public/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
@@ -112,14 +112,15 @@
         <option value="$PROJECT_DIR$/src/routes/posts/2019-07-31-Leetcode solutions/post.js" />
         <option value="$PROJECT_DIR$/src/routes/posts/2019-07-31-Leetcode solutions/document.mdx" />
         <option value="$PROJECT_DIR$/src/routes/posts/2019-07-31-Leetcode solutions/document.module.css" />
-        <option value="$PROJECT_DIR$/../jackli-blog/.gitignore" />
-        <option value="$PROJECT_DIR$/../jackli-blog/public/manifest.json" />
-        <option value="$PROJECT_DIR$/../jackli-blog/netlify.toml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/public/manifest.json" />
+        <option value="$PROJECT_DIR$/netlify.toml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="327" />
+    <option name="x" value="48" />
+    <option name="y" value="157" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -143,8 +144,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -215,14 +217,14 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/utils/getGravatarURL.js">
+    <entry file="file://$PROJECT_DIR$/src/utils/getGravatarURL.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/components/LoadingIndicator.js">
+    <entry file="file://$PROJECT_DIR$/src/components/LoadingIndicator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -234,17 +236,17 @@
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/routes/about/document.mdx">
+    <entry file="file://$PROJECT_DIR$/src/routes/about/document.mdx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/routes/about/document.module.css">
+    <entry file="file://$PROJECT_DIR$/src/routes/about/document.module.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/index.test.js">
+    <entry file="file://$PROJECT_DIR$/src/index.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -253,7 +255,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/renderPageToString.js">
+    <entry file="file://$PROJECT_DIR$/src/renderPageToString.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -262,7 +264,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/renderRSSFeedToString.js">
+    <entry file="file://$PROJECT_DIR$/src/renderRSSFeedToString.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -271,7 +273,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/serviceWorker.js">
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1603">
           <folding>
@@ -280,10 +282,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/components/TagIndexPage.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/TagIndexPage.module.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/components/TagIndexPage.js">
+    <entry file="file://$PROJECT_DIR$/src/components/TagIndexPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -292,7 +294,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/components/ArticleSummary.js">
+    <entry file="file://$PROJECT_DIR$/src/components/ArticleSummary.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -301,13 +303,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/components/ArticleSummary.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/ArticleSummary.module.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/components/Bio.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/Bio.module.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/components/BlogIndexPage.js">
+    <entry file="file://$PROJECT_DIR$/src/components/BlogIndexPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="126" selection-start-line="46" selection-start-column="126" selection-end-line="46" selection-end-column="126" />
@@ -317,7 +319,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/components/BlogLayout.js">
+    <entry file="file://$PROJECT_DIR$/src/components/BlogLayout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="23" column="51" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="53" />
@@ -327,14 +329,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/siteMetadata.js">
+    <entry file="file://$PROJECT_DIR$/src/siteMetadata.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/components/BlogPostLayout.js">
+    <entry file="file://$PROJECT_DIR$/src/components/BlogPostLayout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="9" column="39" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="44" />
@@ -344,21 +346,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/node_modules/react-navi/src/CurrentRoute.tsx">
+    <entry file="file://$PROJECT_DIR$/node_modules/react-navi/src/CurrentRoute.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="59" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/node_modules/react-navi/src/NaviContext.tsx">
+    <entry file="file://$PROJECT_DIR$/node_modules/react-navi/src/NaviContext.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/components/Bio.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Bio.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
@@ -375,31 +377,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/routes/posts/2019-07-31-Leetcode solutions/document.module.css">
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-31-Leetcode solutions/document.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/routes/posts/2019-07-31-Leetcode solutions/document.mdx">
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-31-Leetcode solutions/document.mdx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-951">
           <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/routes/posts/2019-07-31-Leetcode solutions/post.js">
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-31-Leetcode solutions/post.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/routes/posts/2019-07-31-Leetcode solutions/react-logo.svg">
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-31-Leetcode solutions/react-logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/routes/posts/index.js">
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3">
           <folding>
@@ -408,10 +410,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/routes/about/index.js">
+    <entry file="file://$PROJECT_DIR$/src/routes/about/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/components/TagPage.js">
+    <entry file="file://$PROJECT_DIR$/src/components/TagPage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -420,17 +422,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/components/TagPage.module.css">
+    <entry file="file://$PROJECT_DIR$/src/components/TagPage.module.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/.gitignore">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/routes/tags.js">
+    <entry file="file://$PROJECT_DIR$/src/routes/tags.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1258">
           <folding>
@@ -439,13 +441,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/public/favicon.ico">
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/navi.config.js">
+    <entry file="file://$PROJECT_DIR$/navi.config.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -454,7 +456,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/components/ArticleMeta.js">
+    <entry file="file://$PROJECT_DIR$/src/components/ArticleMeta.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
           <folding>
@@ -463,17 +465,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/public/manifest.json">
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/public/index.html">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/src/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/src/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-308">
           <folding>
@@ -482,7 +484,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../jackli-blog/netlify.toml">
+    <entry file="file://$PROJECT_DIR$/netlify.toml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
