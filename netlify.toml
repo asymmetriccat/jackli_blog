@@ -1,0 +1,8 @@
+[build]
+base = "jackli-blog/"
+publish = "jackli-blog/build/"
+command = "npm run buildgit "
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
