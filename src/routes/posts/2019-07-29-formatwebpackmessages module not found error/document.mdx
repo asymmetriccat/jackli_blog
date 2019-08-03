@@ -1,0 +1,30 @@
+import naviLogo from './navi-logo.svg'
+import reactLogo from './react-logo.svg'
+import styles from './document.module.css'
+
+<div className={styles["Welcome"]}>
+
+<div className={styles["img-responsive"]}>
+  <img src="../../images/blog-1.jpg" className={styles["img-responsive"]} alt="blog picture" />
+</div>
+
+## FAILED TO COMPILE. ./NODE_MODULES/REACT-DEV-UTILS/FORMATWEBPACKMESSAGES.JS MODULE NOT FOUND:
+
+Today when I tried to run a react application with "yarn start". I got an error as shown in the title.
+
+```
+Failed to compile.
+
+./node_modules/react-dev-utils/formatWebpackMessages.js
+Module not found: Can't resolve 'D:\react\yunkj\node_modules\babel-preset-react-app\node_modules\@babel\runtime/helpers/slicedToArray' in 'D:\react\yunkj\node_modules\react-dev-utils'
+Compiling...
+
+```
+Finally it was resolved by simply run:
+
+ ```
+ npm add @babel/runtime".
+
+ ```
+
+ </div>
