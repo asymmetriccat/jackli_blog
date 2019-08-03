@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7d154b8-b3cc-4721-ab38-f5d6d3d19615" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/document.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/document.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/navi-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/react-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-07-31-leetcode solutions-add two numbers/document.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-07-31-leetcode solutions-add two numbers/document.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-07-31-leetcode solutions-add two numbers/post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/posts/2019-07-31-Leetcode solutions/document.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/posts/2019-07-28-how to update/document.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/posts/2019-07-31-Leetcode solutions/document.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/posts/2019-07-28-how to update/document.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/posts/2019-07-31-Leetcode solutions/navi-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/posts/2019-07-28-how to update/navi-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/posts/2019-07-31-Leetcode solutions/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/posts/2019-07-28-how to update/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/posts/2019-07-31-Leetcode solutions/react-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/posts/2019-07-28-how to update/react-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/document.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/document.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/navi-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/react-logo.svg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,84 +22,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/posts/index.js">
+        <entry file="file://$PROJECT_DIR$/src/components/ArticleMeta.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/ArticleSummary.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Bio.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Bio.module.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/BlogIndexPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="126" selection-start-line="46" selection-start-column="126" selection-end-line="46" selection-end-column="126" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/BlogIndexPage.module.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/BlogLayout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="23" column="51" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/document.mdx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="12" column="102" lean-forward="true" selection-start-line="12" selection-start-column="102" selection-end-line="12" selection-end-column="102" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/components/BlogLayout.module.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/renderPageToString.js">
+        <entry file="file://$PROJECT_DIR$/src/components/TagPage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <element signature="e#0#65#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/post.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-28-how to update/post.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-28-how to update/navi-logo.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-28-how to update/document.module.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-28-how to update/document.mdx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="60" selection-start-line="60" selection-end-line="60" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/navi-logo.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/document.module.css">
+        <entry file="file://$PROJECT_DIR$/src/components/TagPage.module.css">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -131,14 +134,16 @@
         <option value="$PROJECT_DIR$/src/routes/posts/2019-07-28-how to update/document.mdx" />
         <option value="$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/post.js" />
         <option value="$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/document.mdx" />
+        <option value="$PROJECT_DIR$/src/routes/posts/2019-07-31-leetcode solutions-add two numbers/post.js" />
+        <option value="$PROJECT_DIR$/src/routes/posts/2019-07-31-leetcode solutions-add two numbers/document.mdx" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="561" />
-    <option name="y" value="56" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="x" value="439" />
+    <option name="y" value="26" />
+    <option name="width" value="1747" />
+    <option name="height" value="965" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -172,6 +177,12 @@
               <item name="jackli-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="jackli-blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jackli-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jackli-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -197,6 +208,14 @@
               <item name="posts" type="462c0819:PsiDirectoryNode" />
               <item name="2019-07-29-formatwebpackmessages module not found error" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jackli-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jackli-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-07-31-leetcode solutions-add two numbers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -207,7 +226,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/routes/posts/2019-07-31-leetcode solutions-add two numbers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -218,6 +237,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/posts/2019-07-31-leetcode solutions-add two numbers" />
       <recent name="$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/images" />
@@ -246,18 +266,18 @@
       <option name="presentableId" value="Default" />
       <updated>1564781553334</updated>
       <workItem from="1564781554667" duration="10137000" />
-      <workItem from="1564849426211" duration="4590000" />
+      <workItem from="1564849426211" duration="7410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14727000" />
+    <option name="totallyTimeSpent" value="17547000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="561" y="56" width="1440" height="877" extended-state="0" />
+    <frame x="439" y="26" width="1747" height="965" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30232558" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24855156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -272,7 +292,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3566879" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3207331" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -282,13 +302,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/utils/getGravatarURL.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/LoadingIndicator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -339,40 +352,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ArticleSummary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ArticleSummary.module.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Bio.module.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/BlogIndexPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="126" selection-start-line="46" selection-start-column="126" selection-end-line="46" selection-end-column="126" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/BlogLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/siteMetadata.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -405,16 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Bio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/sass/bootstrap/mixins/_grid.scss" />
     <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-28-how to update/react-logo.svg">
       <provider selected="true" editor-type-id="images" />
@@ -422,29 +393,8 @@
     <entry file="file://$PROJECT_DIR$/src/routes/about/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TagPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TagPage.module.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/favicon.ico">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ArticleMeta.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/navi.config.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -528,9 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/document.module.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/navi-logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -550,15 +497,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-28-how to update/navi-logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-28-how to update/document.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-28-how to update/navi-logo.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/post.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -567,19 +514,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-28-how to update/document.mdx">
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/document.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" selection-start-line="60" selection-end-line="60" selection-end-column="6" />
-        </state>
+        <state relative-caret-position="-188" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/document.mdx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="12" column="102" lean-forward="true" selection-start-line="12" selection-start-column="102" selection-end-line="12" selection-end-column="102" />
+        <state relative-caret-position="105">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-28-how to update/document.mdx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="892">
+          <caret line="60" selection-start-line="60" selection-end-line="60" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-31-leetcode solutions-add two numbers/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-31-leetcode solutions-add two numbers/document.mdx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-31-leetcode solutions-add two numbers/document.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TagPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TagPage.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ArticleMeta.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ArticleSummary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Bio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Bio.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BlogIndexPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="126" selection-start-line="46" selection-start-column="126" selection-end-line="46" selection-end-column="126" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BlogIndexPage.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BlogLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BlogLayout.module.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

@@ -1,0 +1,47 @@
+
+import styles from './document.module.css'
+
+<div className={styles["Welcome"]}>
+
+<div className={styles["img-responsive"]}>
+  <img src="../../images/blog-1.jpg" className={styles["img-responsive"]} alt="blog picture" />
+</div>
+
+## <a href = "https://leetcode.com/problems/add-two-numbers/"> Leetcode solutions-add two numbers: </a>
+
+The trick for this problem is to define a header node, and return the header.next node as the result. Also, sometimes it is easily to forget to do null check for the nodes.
+
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode header = new ListNode(0);   //it is important to have the header node
+        int carry =0;
+       ListNode current =header;  //have the new current node so not going to lose the header
+        while(l1!=null || l2!=null){
+            int v1=l1==null? 0:l1.val;
+            int v2=l2==null? 0:l2.val;
+            ListNode newN= new ListNode((v1+v2+carry)%10);
+            current.next = newN;
+            carry =(v1+v2+carry)/10 ;
+            current = current.next;
+            if(l1!=null) l1=l1.next;
+           if(l2!=null) l2=l2.next;
+        }
+        if(carry !=0){
+            ListNode last=new ListNode(carry); //never forget the biggest digit if there is one.
+           current.next = last;
+        }
+        return header.next;
+    }
+}
+
+```
+ </div>
