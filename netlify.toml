@@ -1,8 +1,0 @@
-[build]
-base = "jackli-blog/"
-publish = "jackli-blog/build/"
-command = "yarn build"
-[[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
