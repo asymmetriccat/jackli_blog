@@ -1,0 +1,89 @@
+
+import styles from './document.module.css'
+
+<div className={styles["Welcome"]}>
+
+<div className={styles["img-responsive"]}>
+  <img src="../../images/blog-1.jpg" className={styles["img-responsive"]} alt="blog picture" />
+</div>
+
+## <a href = "https://leetcode.com/problems/3sum/"> Leetcode solutions: 3sums: </a>
+
+Problem description:
+Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
+
+Note:
+
+The solution set must not contain duplicate triplets.
+
+Example:
+
+Given array nums = [-1, 0, 1, 2, -1, -4],
+
+A solution set is:
+[
+  [-1, 0, 1],
+  [-1, -1, 2]
+]
+
+
+Solutions:
+*1. Brute force 3 loops O(N^3) Solution with time out error. *
+
+```java
+class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        Set<List<Integer>> intList = new HashSet<>();
+        for(int i=0; i<nums.length; i++){
+            for(int j=i+1; j<nums.length;j++){
+                int n =nums.length-1;
+                while(n>j){
+                    if(nums[i]+nums[j]==0-nums[n]){
+                        List<Integer> list = new ArrayList<>();
+                        list.add(nums[i]);
+                    list.add(nums[j]);
+                    list.add(nums[n]);
+                        Collections.sort(list);
+                        intList.add(list);
+                    }
+                n--;
+                }
+            }
+        }
+        return new ArrayList(intList);
+    }
+}
+```
+
+*2. The above solution could be optimized a little to the one shown below. Trick is to use a hashmap to reduce one loop and offer O(N^3) complexity.*
+
+  ```java
+  class Solution {
+      public List<List<Integer>> threeSum(int[] nums) {
+          Set<List<Integer>> intList = new HashSet<>();  //use set to remove duplicated list.
+          Arrays.sort(nums);
+          Map<Integer, Integer> map = new HashMap<>();  //use map to save one more loop, otherwise it will be run out of time limit.
+          for(int i=0; i<nums.length; i++){
+              map.put(nums[i], i);
+          }
+          for(int i=0; i<nums.length; i++){
+              int in = nums[i];                   // reduce run time
+              for(int j=i+1; j<nums.length;j++){
+
+                  int t=0-in-nums[j];
+                      if(map.containsKey(t) && map.get(t)>j){
+                          List<Integer> list = new ArrayList<>();
+                          list.add(in);
+                      list.add(nums[j]);
+                      list.add(t);
+                          intList.add(list);
+                      }
+              }
+          }
+          return new ArrayList(intList);
+      }
+  }
+
+  ```
+
+ </div>
