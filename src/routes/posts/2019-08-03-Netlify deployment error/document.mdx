@@ -1,0 +1,66 @@
+
+import styles from './document.module.css'
+
+<div className={styles["Welcome"]}>
+
+<div className={styles["img-responsive"]}>
+  <img src="../../images/blog-1.jpg" className={styles["img-responsive"]} alt="blog picture" />
+</div>
+
+## Netlify Deployment error:
+
+Several days ago I moved my blog from github page to netlify. During the process I stuck with this error. At the beginning, I was using the toml file to configure the CICD
+and I thought the configuration was correct, however, I got the deployment error as below.
+
+```
+2:10:28 PM: Build ready to start
+   2:10:30 PM: build-image version: 9e0f207a27642d0115b1ca97cd5e8cebbe492f63
+   2:10:30 PM: build-image tag: v3.3.2
+   2:10:30 PM: buildbot version: ef8d0929ed0baabafd8bbb7d0b021e1fc24180c0
+   2:10:30 PM: Fetching cached dependencies
+   2:10:30 PM: Failed to fetch cache, continuing with build
+   2:10:30 PM: Starting to prepare the repo for build
+   2:10:31 PM: No cached dependencies found. Cloning fresh repo
+   2:10:31 PM: git clone https://github.com/asymmetriccat/jackli_blog
+   2:10:31 PM: Preparing Git Reference refs/heads/master
+   2:10:32 PM: Found netlify.toml. Overriding site configuration
+   2:10:32 PM: Different publish path detected, going to use the one specified in the toml file: 'jackli-blog/build/' versus 'build/' in the site
+   2:10:32 PM: Different build command detected, going to use the one specified in the toml file: 'npm run build' versus 'yarn build' in the site
+   2:10:32 PM: failed during stage 'building site': fork/exec /usr/local/bin/build: no such file or directory
+   2:10:32 PM: Different base path detected, going to use the one specified in the toml file: 'jackli-blog/' versus '' in the site
+   2:10:32 PM: Starting build script
+   2:10:32 PM: Build command unable to start
+   2:10:32 PM: Error running command: fork/exec /usr/local/bin/build: no such file or directory
+```
+
+It was obvious that the configuration for the build folder or the base folder or both were wrong. Here is the toml file:
+```
+[build]
+base = "jackli-blog/"
+publish = "jackli-blog/build/"
+command = "npm run build"
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+```
+According to the official document from netlify, the base is the root which has the package.json. The above configuration looks like correct but it is not working.
+So I commented out the build in the toml file.
+
+```
+#[build]
+#base = "jackli-blog/"
+#publish = "jackli-blog/build/"
+#command = "npm run build"
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+```
+Then switched to configure the build from my netlify account. Wow! the deployment is like a charm.
+
+<div className={styles["img-responsive"]}>
+  <img src="../../images/2019-08-03-deploy.png" className={styles["img-responsive"]} alt="blog picture" />
+</div>
+
+ </div>
