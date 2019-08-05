@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7d154b8-b3cc-4721-ab38-f5d6d3d19615" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/2019-08-03-deploy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-08-03-Netlify deployment error/document.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-08-03-Netlify deployment error/document.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-08-03-Netlify deployment error/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/200px-Telephone-keypad2.svg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-08-04-LeetCode solutions-3 sums closest.../document.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-08-04-LeetCode solutions-3 sums closest.../document.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-08-04-LeetCode solutions-3 sums closest.../post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/posts/2019-8-02-LeetCode solutions-3sums/document.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/posts/2019-08-02-LeetCode solutions-3sums/document.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/posts/2019-8-02-LeetCode solutions-3sums/document.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/posts/2019-08-02-LeetCode solutions-3sums/document.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/posts/2019-8-02-LeetCode solutions-3sums/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/posts/2019-08-02-LeetCode solutions-3sums/post.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,23 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/BlogPostLayout.module.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/BlogLayout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Bio.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,7 +47,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-8-02-LeetCode solutions-3sums/post.js">
+        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-02-LeetCode solutions-3sums/post.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
@@ -70,10 +56,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-8-02-LeetCode solutions-3sums/document.mdx">
+        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-02-LeetCode solutions-3sums/document.mdx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="696">
               <caret line="70" column="48" lean-forward="true" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-04-LeetCode solutions-3 sums closest.../post.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-04-LeetCode solutions-3 sums closest.../document.mdx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
@@ -96,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-03-Netlify deployment error/document.mdx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="59" column="92" selection-start-line="59" selection-start-column="92" selection-end-line="59" selection-end-column="92" />
+            <state relative-caret-position="73">
+              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -147,12 +151,14 @@
         <option value="$PROJECT_DIR$/src/routes/posts/2019-8-02-LeetCode solutions-3sums/document.mdx" />
         <option value="$PROJECT_DIR$/src/routes/posts/2019-08-03-Netlify deployment error/post.js" />
         <option value="$PROJECT_DIR$/src/routes/posts/2019-08-03-Netlify deployment error/document.mdx" />
+        <option value="$PROJECT_DIR$/src/routes/posts/2019-08-04-LeetCode solutions-3 sums closest.../post.js" />
+        <option value="$PROJECT_DIR$/src/routes/posts/2019-08-04-LeetCode solutions-3 sums closest.../document.mdx" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="432" />
-    <option name="y" value="402" />
+    <option name="x" value="308" />
+    <option name="y" value="71" />
     <option name="width" value="1747" />
     <option name="height" value="965" />
   </component>
@@ -203,7 +209,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="posts" type="462c0819:PsiDirectoryNode" />
-              <item name="2019-8-02-LeetCode solutions-3sums" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-08-02-LeetCode solutions-3sums" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jackli-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -212,6 +218,14 @@
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="posts" type="462c0819:PsiDirectoryNode" />
               <item name="2019-08-03-Netlify deployment error" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jackli-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jackli-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-08-04-LeetCode solutions-3 sums closest..." type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jackli-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -241,10 +255,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/src/routes/posts/2019-08-04-LeetCode solutions-3 sums closest..." />
       <recent name="$PROJECT_DIR$/src/routes/posts/2019-08-03-Netlify deployment error" />
       <recent name="$PROJECT_DIR$/src/routes/posts/2019-8-02-LeetCode solution: 3sums" />
       <recent name="$PROJECT_DIR$/src/routes/posts/2019-07-31-leetcode solutions-add two numbers" />
-      <recent name="$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -270,18 +284,18 @@
       <option name="presentableId" value="Default" />
       <updated>1564781553334</updated>
       <workItem from="1564781554667" duration="10137000" />
-      <workItem from="1564849426211" duration="16009000" />
+      <workItem from="1564849426211" duration="18381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26146000" />
+    <option name="totallyTimeSpent" value="28518000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="432" y="402" width="1747" height="965" extended-state="0" />
+    <frame x="308" y="71" width="1747" height="965" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24855156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24855156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -296,7 +310,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3207331" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3207331" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -306,12 +320,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navi.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/tags.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -613,14 +621,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-8-02-LeetCode solutions-3sums/document.mdx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="70" column="48" lean-forward="true" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-8-02-LeetCode solutions-3sums/post.js">
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-02-LeetCode solutions-3sums/post.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
@@ -643,8 +644,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-03-Netlify deployment error/document.mdx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="59" column="92" selection-start-line="59" selection-start-column="92" selection-end-line="59" selection-end-column="92" />
+        <state relative-caret-position="73">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-04-LeetCode solutions-3 sums closest.../post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-02-LeetCode solutions-3sums/document.mdx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="70" column="48" lean-forward="true" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-04-LeetCode solutions-3 sums closest.../document.mdx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>

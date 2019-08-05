@@ -1,0 +1,119 @@
+
+import styles from './document.module.css'
+
+<div className={styles["Welcome"]}>
+
+<div className={styles["img-responsive"]}>
+  <img src="../../images/blog-1.jpg" className={styles["img-responsive"]} alt="blog picture" />
+</div>
+
+## 1. <a href = "https://leetcode.com/problems/3sum-closest/"> Leetcode solutions: 3Sum Closest: </a>
+
+*Problem description:*
+*Given an array nums of n integers and an integer target, find three integers in nums such that the sum is closest to target. Return the sum of the three integers. You may assume that each input would have exactly one solution.*
+
+Example:
+
+Given array nums = [-1, 2, 1, -4], and target = 1.
+
+The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+
+
+Solutions:
+*1. This solution uses the quick search strategy. So firstly it needs sort the numbers array. *
+
+```java
+class Solution {
+    public int threeSumClosest(int[] nums, int target) {
+        if(nums==null || nums.length<0) return 0;
+        Arrays.sort(nums);                   //sort the array so we can use the quick search
+         int len = nums.length;
+        int result=nums[0]+nums[1]+nums[len-1];      //use the first, second, and the last numbers as the initial potential result.
+
+        for(int i=0; i<len-1; i++){
+            int in = nums[i];
+           int left =i+1;
+            int right = len-1;
+                while(left<right){
+                    int tem = in +nums[left]+nums[right];
+                    if(tem==target){
+                        return tem;
+                    }
+                    if(tem>target){
+                        right--;
+                    }
+                    if(tem<target){
+                        left++;
+                    }
+
+                    if( Math.abs(tem-target)<Math.abs(result-target)){
+                        result=tem;
+                    }
+                }
+            }
+        return result;
+        }
+
+}
+```
+## 2. <a href = "https://leetcode.com/problems/letter-combinations-of-a-phone-number/"> Leetcode solutions: Letter Combinations of a Phone Number: </a>
+*Problem description:*
+Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent.
+
+A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
+
+<div className={styles["img-responsive"]}>
+  <img src="../../images/200px-Telephone-keypad2.svg.png" className={styles["img-responsive"]} alt="blog picture" />
+</div>
+
+
+Example:
+
+Input: "23"
+Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
+
+*This is a recursive method.  This <a href= "https://www.youtube.com/watch?v=h6FmiyYDjmk">youtube video </a>is an excellent tutorial lesson for this problem. *
+
+  ```java
+  class Solution {
+      class Solution {
+          public List<String> letterCombinations(String digits) {
+              int len = digits.length();
+             if(digits ==null || len<1) return Collections.emptyList();
+              List<String> result = new ArrayList<>();
+
+              Map<Character, char[]> charMap = new HashMap<>();
+              charMap.put('0', new char[]{});
+              charMap.put('1', new char[]{});
+               charMap.put('2', new char[]{'a', 'b', 'c'});
+              charMap.put('3', new char[]{'d', 'e', 'f'});
+              charMap.put('4', new char[]{'g', 'h', 'i'});
+              charMap.put('5', new char[]{'j', 'k', 'l'});
+              charMap.put('6', new char[]{'m', 'n', 'o'});
+              charMap.put('7', new char[]{'p', 'q', 'r', 's'});
+              charMap.put('8', new char[]{'t', 'u', 'v'});
+              charMap.put('9', new char[]{'w', 'x', 'y', 'z'});
+
+              StringBuilder sb = new StringBuilder();
+
+              letterCombHelper(sb, digits, charMap, result);
+              return result;
+
+          }
+
+          private void letterCombHelper(StringBuilder sb, String digits, Map<Character, char[]> charMap, List<String> result){
+              if(sb.length()==digits.length()){
+                  result.add(sb.toString());
+                  return;
+              }
+
+              for(char c: charMap.get(digits.charAt(sb.length()))){
+                  sb.append(c);
+                  letterCombHelper(sb, digits, charMap, result);  //recursively calls with the sb
+                  sb.deleteCharAt(sb.length()-1);  //delete the last char
+              }
+          }
+      }
+  ```
+
+ </div>
