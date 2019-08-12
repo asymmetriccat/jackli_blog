@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7d154b8-b3cc-4721-ab38-f5d6d3d19615" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/routes/posts/2019-08-12-find first and last position of element in sorted array.../document.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/posts/2019-08-12-find first and last position of element in sorted array.../document.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-02-LeetCode solutions-3sums/post.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-02-LeetCode solutions-3sums/document.mdx">
           <provider selected="true" editor-type-id="text-editor">
@@ -54,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-12-find first and last position of element in sorted array.../post.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="45">
+              <caret line="3" column="91" selection-start-line="3" selection-start-column="91" selection-end-line="3" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -68,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-12-find first and last position of element in sorted array.../document.mdx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-62">
-              <caret line="130" column="160" selection-start-line="130" selection-start-column="160" selection-end-line="130" selection-end-column="160" />
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -135,15 +126,15 @@
         <option value="$PROJECT_DIR$/src/routes/posts/2019-08-03-Netlify deployment error/post.js" />
         <option value="$PROJECT_DIR$/src/routes/posts/2019-08-03-Netlify deployment error/document.mdx" />
         <option value="$PROJECT_DIR$/src/routes/posts/2019-08-04-LeetCode solutions-3 sums closest.../post.js" />
-        <option value="$PROJECT_DIR$/src/routes/posts/2019-08-12-find first and last position of element in sorted array.../post.js" />
         <option value="$PROJECT_DIR$/src/routes/posts/2019-08-04-LeetCode solutions-3 sums closest.../document.mdx" />
+        <option value="$PROJECT_DIR$/src/routes/posts/2019-08-12-find first and last position of element in sorted array.../post.js" />
         <option value="$PROJECT_DIR$/src/routes/posts/2019-08-12-find first and last position of element in sorted array.../document.mdx" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2585" />
-    <option name="y" value="315" />
+    <option name="x" value="459" />
+    <option name="y" value="66" />
     <option name="width" value="1747" />
     <option name="height" value="965" />
   </component>
@@ -220,7 +211,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/routes/posts/2019-08-12-find first and last position of element in sorted array..." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -231,8 +222,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/routes/posts/2019-08-12-find first and last position of element in sorted array..." />
       <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/src/routes/posts/2019-08-12-find first and last position of element in sorted array..." />
       <recent name="$PROJECT_DIR$/src/routes/posts/2019-08-04-LeetCode solutions-3 sums closest..." />
       <recent name="$PROJECT_DIR$/src/routes/posts/2019-08-03-Netlify deployment error" />
       <recent name="$PROJECT_DIR$/src/routes/posts/2019-8-02-LeetCode solution: 3sums" />
@@ -261,17 +252,18 @@
       <option name="presentableId" value="Default" />
       <updated>1564781553334</updated>
       <workItem from="1564781554667" duration="10137000" />
-      <workItem from="1564849426211" duration="20810000" />
+      <workItem from="1564849426211" duration="21801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30947000" />
+    <option name="totallyTimeSpent" value="31938000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2585" y="315" width="1747" height="965" extended-state="0" />
+    <frame x="459" y="66" width="1747" height="965" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24855156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24855156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -286,7 +278,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3207331" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3081329" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -296,9 +288,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-29-formatwebpackmessages module not found error/react-logo.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -621,20 +610,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-12-find first and last position of element in sorted array.../post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-12-find first and last position of element in sorted array.../document.module.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-12-find first and last position of element in sorted array.../post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="91" selection-start-line="3" selection-start-column="91" selection-end-line="3" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/IMG_20190812.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-12-find first and last position of element in sorted array.../document.mdx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
-          <caret line="130" column="160" selection-start-line="130" selection-start-column="160" selection-end-line="130" selection-end-column="160" />
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
