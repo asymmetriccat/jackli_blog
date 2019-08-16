@@ -1,0 +1,55 @@
+
+import styles from './document.module.css'
+
+<div className={styles["Welcome"]}>
+
+<div className={styles["img-responsive"]}>
+  <img src="../../images/blog-1.jpg" className={styles["img-responsive"]} alt="blog picture" />
+</div>
+
+##  Memory leaks in java application:
+
+** Introduction:**
+
+Recently I am refreshing my java knowledge. There is an interesting topic about memory leaks. I met memory leaks a few times but didn't dig it in to find what happen.
+Today I read some <a href = "https://stackify.com/memory-leaks-java/">blogs </a> and books. Below is the summarize what's happened with memory leaks,
+and how to prevent it from our best.
+
+**1. what is memory leaks in java?**
+
+The standard definition of a memory leak is a scenario that occurs when objects are no longer being used by the application,
+but the Garbage Collector is unable to remove them from working memory – because they’re still being referenced. As a result,
+the application consumes more and more resources – which eventually leads to a fatal OutOfMemoryError.
+
+**2. Heap leaks:**
+
+*(1). Static Field Holding On to the Object Reference:*
+
+*The first scenario that might cause a Java memory leak is referencing a heavy object with a static field. Therefore,
+to prevent such kind of memory leaks, we need to pay close attention to our usage of static; declaring any collection or heavy object as static ties its lifecycle to the lifecycle of the JVM itself,
+and makes the entire object graph impossible to collect. We also need to be aware of collections in general – that’s a common way to unintentionally hold on to references for longer than we need to.*
+
+(2). * Calling String.intern() on long String.*
+
+Frequently causes memory leaks involves String operations – specifically the String.intern() API.
+The intern API will place the str String in the JVM memory pool – where it can’t be collected – and again, this will cause the GC to be unable to free up enough memory.
+The lucky thing is Java 8 already has a solution for this: where the PermGen space is replaced by the Metaspace – which won’t lead to any OutOfMemoryError when using intern on Strings.
+
+(3). *Unclosed Streams, unclosed connections *
+
+Forgetting to close a stream is a very common scenario, and certainly, one that most developers can relate to.
+The problem was partially removed in Java 7 when the ability to automatically close all types of streams was introduced into the try-with-resource clause.
+Unclosed connections is similar to the unclosed Streams, with the primary difference of dealing with unclosed connections (e.g. to a database, to an FTP server, etc.).
+Again, improper implementation can do a lot of harm, leading to memory problems. Therefore, to prevent such kind of memory leaks, we need to always close connections in a disciplined manner.
+
+(4). *Objects without correctly overriding hashCode() and equals().*
+
+A simple but very common example that can lead to a memory leak is to use a HashSet with objects that are missing their hashCode() or equals() implementations.
+Specifically, when we start adding duplicate objects into a Set – this will only ever grow, instead of ignoring duplicates as it should. We also won’t be able
+to remove these objects, once added.
+
+In these situations, the solution is simple – it’s crucial to provide the hashCode() and equals() implementations.
+One tool worth mentioning here is Project Lombok – this provides a lot of default implementation by annotations, e.g. @EqualsAndHashCode.
+
+
+ </div>
