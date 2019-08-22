@@ -1,0 +1,157 @@
+
+import styles from './document.module.css'
+
+<div className={styles["Welcome"]}>
+
+<div className={styles["img-responsive"]}>
+  <img src="../../images/blog-1.jpg" className={styles["img-responsive"]} alt="blog picture" />
+</div>
+
+## 1. <a href = "https://leetcode.com/problems/combination-sum/"> Leetcode solutions: Combination Sum: </a>
+
+*Problem description:*
+Given a set of candidate numbers (candidates) (without duplicates) and a target number (target), find all unique combinations in candidates where the candidate numbers sums to target.
+
+The same repeated number may be chosen from candidates unlimited number of times.
+
+Note:
+
+All numbers (including target) will be positive integers.
+The solution set must not contain duplicate combinations.
+Example 1:
+
+Input: candidates = [2,3,6,7], target = 7,
+A solution set is:
+[
+  [7],
+  [2,2,3]
+]
+Example 2:
+
+Input: candidates = [2,3,5], target = 8,
+A solution set is:
+[
+  [2,2,2,2],
+  [2,3,3],
+  [3,5]
+]
+
+
+**Solutions:**
+
+As shown in the below picture, this problem could be solved using dfs method.
+
+<div className={styles["img-responsive"]}>
+  <img src="../../images/combination-sum.png" className={styles["img-responsive"]} alt="blog picture" />
+</div>
+
+##
+ Below is the code for this solution:
+
+
+```java
+class Solution {
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        List<List<Integer>> results =new ArrayList<>();
+        if(candidates==null || candidates.length==0) return results;
+
+        Arrays.sort(candidates);
+        List<Integer> combinations =new ArrayList<>();
+        int startIndex = 0;
+        searchAllCombinations(candidates, results, combinations, target, startIndex);
+        return results;
+    }
+
+    private void searchAllCombinations(int [] candidates, List<List<Integer>> results, List<Integer> combinations, int target, int startIndex){
+        if(target==0){
+            results.add(new ArrayList<>(combinations));
+            return;
+        }
+        for(int i=startIndex; i<candidates.length; i++){
+            if(candidates[i]>target) break;
+            combinations.add(candidates[i]);
+            searchAllCombinations(candidates, results, combinations, target-candidates[i], i); // i keeps the same
+            combinations.remove(combinations.size()-1);
+        }
+    }
+}
+```
+
+## 2. <a href = "https://leetcode.com/problems/combination-sum-ii/"> Leetcode solutions: Combination Sum II: </a>
+
+*Problem description:*
+Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sums to target.
+
+Each number in candidates may only be used once in the combination.
+
+Note:
+
+All numbers (including target) will be positive integers.
+The solution set must not contain duplicate combinations.
+Example 1:
+
+Input: candidates = [10,1,2,7,6,1,5], target = 8,
+A solution set is:
+[
+  [1, 7],
+  [1, 2, 5],
+  [2, 6],
+  [1, 1, 6]
+]
+Example 2:
+
+Input: candidates = [2,5,2,1,2], target = 5,
+A solution set is:
+[
+  [1,2,2],
+  [5]
+]
+
+**Solutions:**
+
+As shown in the below picture, this problem could be solved using dfs method. Because each number in candidates may only be used once in the combination,
+therefore, when do the recursive call, startIndex needs to plus one to move to the next number for the candidate. This is the difference with the above solution
+for combination sum.
+
+<div className={styles["img-responsive"]}>
+  <img src="../../images/combination_sum_II.png" className={styles["img-responsive"]} alt="blog picture" />
+</div>
+
+##
+ Below is the code for this solution:
+
+
+```java
+class Solution {
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        List<List<Integer>> results =new ArrayList<>();
+        if(candidates==null || candidates.length==0) return results;
+
+        Arrays.sort(candidates);
+        List<Integer> combinations =new ArrayList<>();
+        searchAllCombinations(candidates, target, results, combinations, 0);
+        return results;
+    }
+
+    private void searchAllCombinations(int[] candidates, int target, List<List<Integer>> results, List<Integer> combinations, int startIndex){
+        if(target==0){
+            results.add(new ArrayList<>(combinations));
+            return;
+        }
+        for(int i = startIndex; i<candidates.length; i++){
+            if(target<candidates[i]) break;
+            if(i!=startIndex && candidates[i]==candidates[i-1]){    // in case to add duplicated combinations
+                continue;
+            }
+            combinations.add(candidates[i]);
+            searchAllCombinations(candidates, target-candidates[i], results, combinations, i+1);  //i+1,
+            combinations.remove(combinations.size()-1);
+        }
+    }
+}
+```
+
+
+
+
+ </div>
