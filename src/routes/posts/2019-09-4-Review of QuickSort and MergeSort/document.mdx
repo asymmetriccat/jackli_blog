@@ -1,0 +1,103 @@
+
+import styles from './document.module.css'
+
+<div className={styles["Welcome"]}>
+
+<div className={styles["img-responsive"]}>
+  <img src="../../images/blog-1.jpg" className={styles["img-responsive"]} alt="blog picture" />
+</div>
+
+
+Today I reviewed several sorting algorithms. Among those sorting algorithms, quick sort and merge sort are very efficient sorting methods.
+Below is the summary for them.
+
+
+**QuickSort**
+
+The key of quicksort is using divide and conquer strategy. It picks an element as pivot and partitions the given array around the picked pivot. In the partition,
+it uses two pointers low and high to scan from both sides each of time. If the value at high is smaller than pivot value, assign the high value to low value, otherwise
+do the same from the low side, until low==high, return the index of low for the next round quick sort of the sub-arrays.
+
+
+ Below is the code for quicksort which always picks the low value as the pivot:
+
+
+```java
+class QuickSort {
+    public void quicksort(int [] ints){
+       if(ints==null || ints.length==0) return;
+        int low =0;
+        int high =ints.length-1;
+        quickSortHelper(ints, low, high);
+    }
+
+    private void quickSortHelper(int [] ints, int low, int high){
+
+          int location=0;
+          while(low<high){
+            location =patition(ints, low, high);
+            quickSortHelper(ints, low, loction-1);
+            quickSortHelper(ints, location+1, high);
+          }
+      }
+
+     private int patition(ints, int low, int high){
+        int pivot = ints[low];
+        while(low<high){
+             while(high> low && ints[high] >pivot ){
+                high--;
+             }
+           ints[low] =ints[high];
+           while(low<high && ints[low]<=pivot ){   // use <= because pivot is the low
+              low++;
+           }
+           ints[high]=ints[low];
+        }
+        ints[low] =pivot;
+        return low;
+     }
+}
+
+
+```
+
+**MergeSort**
+
+MergeSort is also a divide and conquer algorithm. It recursively divides the array into halfs and do mergesort of the corresponding sub-arrays,
+and merge the sorted sub-arrays.
+
+Below is the code for MergeSort:
+
+ ```java
+
+ class MergeSort {
+     public void mergesort(int [] a, int n){  // n is the length of array a
+          if(n<2) return;
+          int mid = n/2;
+          int [] s1 =Arrays.copyOfRange(a, 0, mid);
+          int [] s2 = Arrays.copyOfRange(a, mid, n);
+          mergesort(s1, s1.length);
+          mergesort(s2, s2.length);
+          merge(a, s1, s2);
+     }
+
+     private void merge(int[] a, int [] s1, int [] s2){
+          int i=0, in j=0;
+          while(i+j<a.length){
+               if(j==s2.length || s1[i]<s2[j]){          // only s1 left or s1[i] < s2[j]
+                    a[i+j] = s1[i];
+                    i++;
+               }
+               else{
+                   a[i+j] = s2[j];
+                   j++;
+               }
+          }
+     }
+ }
+
+ ```
+
+
+
+ </div>

@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7d154b8-b3cc-4721-ab38-f5d6d3d19615" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/combinations.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/combinations_dfs.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-08-23-LeetCode-combinations/document.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-08-23-LeetCode-combinations/document.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-08-23-LeetCode-combinations/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-09-4-Review of QuickSort and MergeSort/document.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-09-4-Review of QuickSort and MergeSort/document.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/posts/2019-09-4-Review of QuickSort and MergeSort/post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,28 +19,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-22-Combination Sum I &amp; II/post.js">
+        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-23-LeetCode-combinations/document.mdx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-22-Combination Sum I &amp; II/document.mdx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="142" column="109" selection-start-line="142" selection-start-column="109" selection-end-line="142" selection-end-column="109" />
+            <state relative-caret-position="658">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-23-LeetCode-combinations/document.mdx">
+        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-09-4-Review of QuickSort and MergeSort/post.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="75">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-09-4-Review of QuickSort and MergeSort/document.mdx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -151,12 +149,14 @@
         <option value="$PROJECT_DIR$/src/routes/posts/2019-08-22-Combination Sum I &amp; II/document.mdx" />
         <option value="$PROJECT_DIR$/src/routes/posts/2019-08-23-LeetCode-combinations/post.js" />
         <option value="$PROJECT_DIR$/src/routes/posts/2019-08-23-LeetCode-combinations/document.mdx" />
+        <option value="$PROJECT_DIR$/src/routes/posts/2019-09-4-Review of QuickSort, MergeSort and HeapSort/document.mdx" />
+        <option value="$PROJECT_DIR$/src/routes/posts/2019-09-4-Review of QuickSort, MergeSort and HeapSort/post.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="378" />
-    <option name="y" value="129" />
+    <option name="x" value="382" />
+    <option name="y" value="217" />
     <option name="width" value="1747" />
     <option name="height" value="965" />
   </component>
@@ -181,12 +181,6 @@
             <path>
               <item name="jackli-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="jackli-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jackli-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jackli-blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -201,14 +195,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jackli-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jackli-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
-              <item name="2019-08-22-Combination Sum I &amp; II" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jackli-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -217,6 +203,14 @@
               <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="posts" type="462c0819:PsiDirectoryNode" />
               <item name="2019-08-23-LeetCode-combinations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jackli-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jackli-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-09-4-Review of QuickSort and MergeSort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jackli-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -233,7 +227,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/routes/posts/2019-09-4-QuickSort, MergeSort and HeapSort" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -243,15 +237,15 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/posts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/posts/2019-09-4-QuickSort, MergeSort and HeapSort" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/src/routes/posts/2019-08-23-LeetCode-combinations" />
       <recent name="$PROJECT_DIR$/src/routes/posts/2019-08-22-Combination Sum I &amp; II" />
       <recent name="$PROJECT_DIR$/src/routes/posts/2019-08-16-LeetCode-Unique-paths" />
-      <recent name="$PROJECT_DIR$/src/routes/posts/2019-08-15-Memory leaks in java application" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/routes/posts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -280,18 +274,19 @@
       <workItem from="1564849426211" duration="22270000" />
       <workItem from="1565924028587" duration="4357000" />
       <workItem from="1566504233435" duration="1758000" />
-      <workItem from="1566560747847" duration="1530000" />
+      <workItem from="1566560747847" duration="4828000" />
+      <workItem from="1567603319595" duration="5317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40052000" />
+    <option name="totallyTimeSpent" value="48667000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="378" y="129" width="1747" height="965" extended-state="0" />
+    <frame x="382" y="217" width="1747" height="965" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24855156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24855156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -306,7 +301,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3081329" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3081329" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -316,14 +311,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-07-31-leetcode solutions-add two numbers/document.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TagPage.module.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ArticleMeta.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -603,6 +590,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-22-Combination Sum I &amp; II/document.mdx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="142" column="109" selection-start-line="142" selection-start-column="109" selection-end-line="142" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-23-LeetCode-combinations/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-16-LeetCode-Unique-paths/document.module.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -641,24 +642,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-22-Combination Sum I &amp; II/document.mdx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="142" column="109" selection-start-line="142" selection-start-column="109" selection-end-line="142" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-23-LeetCode-combinations/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-08-23-LeetCode-combinations/document.mdx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="658">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-09-4-Review of QuickSort and MergeSort/document.mdx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/posts/2019-09-4-Review of QuickSort and MergeSort/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
